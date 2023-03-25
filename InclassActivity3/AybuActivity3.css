@@ -1,0 +1,81 @@
+/* ZAHRAA RASHID - css for the AybuActivity3 */ 
+ 
+/* .header is the top part of the page which includes logo and title */ 
+.header { 
+	width: 70%; 
+	height: 100%; 
+	padding: 2%; 
+	margin-left: auto; 
+	margin-right: auto; 
+   } 
+	
+   /* the logo is floated to the left */ 
+   .logo { 
+	float: left; 
+	padding-right: 1%; 
+   } 
+	
+   /* the logo is resized */ 
+   .logo img{ 
+	height:110px; 
+	width: 250px; 
+   } 
+	
+   /* the title is floated to the left and the font size is changed */ 
+   .title { 
+	text-align: left; 
+	font-size: large; 
+	margin-bottom: auto; 
+   } 
+	
+   /* this part also similar to the .header where the content includes the .image, .image img and .main */ 
+   .content{ 
+	width: 70%; 
+	margin-right: auto; 
+	margin-left: auto; 
+	padding: 1%; 
+   } 
+	
+   /* the image is floated to the left */ 
+   .image{ 
+	float: left; 
+	padding-right: 1%; 
+   } 
+	
+   /* the image is resized */ 
+   .image img{ 
+	height: 240px; 
+	width: 240px; 
+   } 
+	
+   /* the text is justified and the font size is changed */ 
+   .main{ 
+	 text-align: justify; 
+	 font-size: large; 
+	 font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   } 
+	
+   /* the footer is similar to the header */ 
+   .head{ 
+	width: 70%; 
+	text-align: center; 
+	margin-top: 15%; 
+	margin-left: auto; 
+	margin-right: auto; 
+   } 
+	
+   /* the advertisement is set to 100% width and height, the background color is changed  
+   the position of the advertisement is set also to the top left of the page */ 
+   .advertisement 
+   { 
+	width:100px; 
+	height:150px;  
+	border-color:black; 
+	border-width:2px;  
+	background-color:gray;  
+	color:white; 
+	position:fixed; 
+	top:1%; 
+	left:1%; 
+   }
+   
