@@ -1,0 +1,42 @@
+/*
+Author: Zahraa RASHID
+16050141008
+Activity4.css
+*/
+
+body{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+label{
+  display: inline-block;
+  width: 100px;
+}
+form > input{
+  box-sizing: border-box;
+  width : 200px;
+  height: 25px;
+}
+form > select {
+  width: 100px;
+  height: 25px;
+}
+#sex{
+  width: 20px;
+}
+#language{
+  width: 20px;
+}
+
+#about{
+  margin-bottom: -15px;
+}
+
+#submit-button{
+  position: relative;
+  margin-left: 110px;
+  margin-top: -40px;
+  width: 70px;
+  height: 30px;
+  text-justify: justify;
+}
