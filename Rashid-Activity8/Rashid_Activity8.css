@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+  
+  }
+  form {
+    flex-direction: column;
+    gap:20px;
+    display:flex;
+  }
+  .container {
+    display:flex;
+    gap:20px;
+  }
+  label {
+    width:220px;
+  }
+  input {
+    padding:4px;
+    width: 160px;
+    height: 20px;
+  }
+  input:required:invalid, input:focus:invalid {
+    border:1px solid red;
+    box-shadow: 1px 0px 15px -6px #FF0000;
+  }
+  button {
+    width:100px;
+    height: 30px;
+  }
+    
