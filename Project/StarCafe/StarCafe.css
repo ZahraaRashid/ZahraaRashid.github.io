@@ -1,0 +1,351 @@
+/*Author: Zahraa Rashid */
+/*Description: This is the css file for the Star Cafe website*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+  background-color: #ffffff;
+}
+/* the header implemented to all pages */
+.header {
+  margin-bottom: auto;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+/* id for the logo floated to the left */
+#logo {
+  float: left;
+  padding-right: 1%;
+}
+
+/* id logo resized */
+#logo img{
+  height:75px;
+  width: 75px;
+}
+
+/* header font size and color */
+.header h1 {
+  font-size: 30px;
+  color: rgb(143, 6, 6);
+}
+
+/* navigation bar */
+.TopNav
+{
+  overflow: hidden;
+  background-color: black;
+}
+
+/* navigation bar links */
+.TopNav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* navigation bar links hover */
+.TopNav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* footer implemented to all pages  */
+.footer {
+  margin-top: 100px;
+  padding: 1px;
+  text-align: center;
+  background: rgb(98, 4, 4);
+  border: 1px solid black;
+  color: white;
+}
+
+/* used to change the color of the links */
+.White {
+    color: white;
+}
+
+/* Clear floats after the columns */
+.rowF:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the columns */
+.columnF {
+  float: left;
+  margin-top: 10px;
+  width: 30%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 250px;
+  background-color: rgb(98, 4, 4);
+  color: white;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 50px;
+}
+
+/* to do list */
+ul
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: right;
+width: 10em;
+}
+
+/* to do list items */
+li
+{
+background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+margin: 1em 0;
+}
+
+/* for centering the text used everywhere needed */
+.CentreText
+{
+  text-align: center;
+}
+
+/* for background color used everywhere needed */
+.BackGround
+{
+  background-color: rgb(98, 4, 4);
+}
+
+/* Index (Home) Page */
+/* main1 content includes the background image */
+.main1 {   
+  color: white;
+  border: 5px solid rgb(85, 4, 4);
+  margin-top: 10px;
+  background-image: url("https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/intro-1645231221.webp");
+  height: 250px;
+}
+
+/* main2 content includes the text */
+.main2 {   
+  color: black;
+  border: 5px solid rgb(143, 6, 6);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* main3 content includes the background image */
+.main3 {   
+  color: white;
+  border: 5px solid rgb(188, 14, 14);
+  margin-top: 10px;
+  background-image: url("https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE4MjY3M30");
+  height: 250px;
+}
+
+/* main4 content includes the text */
+.main4 {   
+  color: black;
+  border: 5px solid rgb(143, 6, 6);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* Coffee Page */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the columns */
+.column {
+  float: left;
+  margin-top: 10px;
+  width: 30%;
+  padding: 21.4px;
+  height: 200px;
+  background-color: rgb(98, 4, 4);
+  color: white;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* table style */
+table 
+{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+
+}
+
+/* table header style */
+thead 
+{
+  background-color: rgb(98, 4, 4);
+  color: white;
+}
+
+/* table body style */
+th, td 
+{
+  border: 1px solid black;
+  padding: .2em 1em .2em .5em;
+  text-align: left;
+  vertical-align: middle;
+  height: 28px;
+  width: 28px;
+}
+
+/* table row style to make the text in the right side */
+.right 
+{
+  text-align: right;
+}
+
+/* Dessert */
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the column1 includes the table (from the above used styles) and the images */
+.column1 {
+  float: left;
+  margin-top: 10px;
+  width: 15%;
+  padding: 10px;
+  height: 145px;
+}
+
+/* Style the column2 includes the text (descriptions) */
+.column2 {
+  float: right;
+  margin-top: 20px;
+  width: 57%;
+  padding: 10px;
+  height: 145px;
+  background-color: rgb(98, 4, 4);
+  color: white;
+  text-align: justify;
+}
+
+/* About */
+/* Clear floats after the columns */
+.container::after, .row2::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the container */
+.container {
+  padding: 16px;
+}
+
+/* Style the cards */
+.card {
+  margin-bottom: 10px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+/* Style the images inside the container */
+.image {
+  display: block;
+  height: auto;
+}
+
+/* resize the images */
+.image img {
+  width: 110%;
+  height: 110%;
+}
+
+/* Style the column3 includes the cards */
+.column3 {
+  float: left;
+  width: 12%;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(98, 4, 4);
+  color: white;
+  height: 400px;
+}
+
+/* Style the column4 includes the text (History) */
+.column4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 65px;
+  background-color: rgb(98, 4, 4);
+  color: white;
+  height: auto !important;
+  text-align: justify;
+}
+
+/* Contact */
+.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
+  padding-left: 10px !important;
+}
+.cd-form .user {
+  background: url("../img/cd-icon-user.svg") no-repeat 16px center;
+}
+.cd-form .email {
+  background: url("../img/cd-icon-email.svg") no-repeat 16px center;
+}
+.cd-form [required].user {
+  background: url("../img/cd-icon-user.svg") no-repeat 16px center, url("../img/cd-required.svg") no-repeat top right;
+}
+.cd-form [required] {
+  background: url("../img/cd-required.svg") no-repeat top right;
+}
+
+.cd-form .error {
+  border-color: #e94b35 !important;
+}
+/* jQuery-Ui widget used in Coffee page */
+#tabs {
+  width: 99.5%;
+  margin-top: 20px;
+}
+
+#tabsF {
+  float: left;
+  width: 99.5%;
+  background-color: rgb(98, 4, 4);
+  color: white;
+}
+.red {
+  color: red;
+}
+/* jQuery plugin used in Dessert page */
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+}
+.space img {
+  width: 100%;
+  height: 100%;
+}
+
