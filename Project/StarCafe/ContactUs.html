@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- Path: Index.html -->
+<html lang="en">
+  <head>
+    <title>STAR Cafe</title>
+    <meta name="description" content="STAR Cafe">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="StarCafe.css">
+    <link rel="stylesheet" href="contact-form-master/css/style.css">
+    <script src = "contact-form-master/js/jquery-2.1.1.js"></script>
+    <script src="jquery.js"></script>
+    <script type="text/javascript" src="ContactUs.js"></script>
+  </head> 
+   <!-- Body -->
+<body>
+   <!-- The top part for each page including the logo and the navigation bar -->
+  <div class="header">
+    <div id="logo">
+      <img src="star.png"  alt="image"/>
+    </div>
+    <h1>STAR Cafe</h1>
+    <p>Since 1995 in Baghdad</p>
+  </div>
+  <div class="TopNav">
+    <a class="active" href="Index.html"> Home</a>
+    <a href="Coffee.html">Coffee</a>
+    <a href="Dessert.html">Dessert</a>
+    <a href="About.html">About</a>
+    <a href="ContactUs.html">Contact Us</a>
+  </div>
+    <!-- The contact-form-master is applied -->
+    <!--start of the form-->
+        <form class="cd-form floating-labels">
+         <!-- The form is divided into two fieldsets -->
+         <!-- The first fieldset is for the account info -->
+          <fieldset>
+            <!-- The legend is the title of the fieldset -->
+             <legend>Account Info</legend>
+               <!-- The div is for the massage -->
+             <div class="error-message">
+                <p>Please enter a valid email address</p>
+             </div>
+               <!-- The div is for the name -->
+             <div class="icon">
+                <label class="cd-label" for="cd-name">Name</label>
+                <input class="user" type="text" name="cd-name" id="cd-name" required>
+             </div> 
+               <!-- The div is for the email -->
+             <div class="icon">
+                <label class="cd-label" for="cd-email">Email</label>
+                <input class="email" type="email" name="cd-email" id="cd-email" required>
+              </div>
+          </fieldset>
+            <!-- The second fieldset is for the purpose info -->
+          <fieldset>
+             <legend>Purpose Info</legend>
+            <!-- The div is for the purpose type -->
+             <div>
+                <h4>Purpose Type</h4>
+                  <!-- The select is for the purpose type -->
+                <p class="cd-select icon">
+                  <!-- The option is for the purpose type -->
+                   <select class="budget">
+                      <option value="0">Select Purpose Type</option>
+                      <option value="1">Message of thanks</option>
+                      <option value="3">Complaint</option>
+                      <option value="4">Suggestion</option>
+                      <option value="5">Reservation</option>
+                   </select>
+                </p>
+             </div> 
+               <!-- The div is for the level of significance of the purpose -->
+             <div>
+                <h4>Level of Significance of The Purpose </h4>
+       
+                <ul class="cd-form-list">
+                  <!-- The radio is for the level of significance of the purpose -->
+                   <li>
+                      <input type="radio" name="radio-button" id="cd-radio-1" checked>
+                      <label for="cd-radio-1">0% - 40%</label>
+                   </li>
+                      
+                   <li>
+                      <input type="radio" name="radio-button" id="cd-radio-2">
+                      <label for="cd-radio-2">40% - 80%</label>
+                   </li>
+       
+                   <li>
+                      <input type="radio" name="radio-button" id="cd-radio-3">
+                      <label for="cd-radio-3">80% - 100%</label>
+                   </li>
+                </ul>
+             </div>
+               <!-- The div is for the purpose description -->
+             <div class="icon">
+                <label class="cd-label" for="cd-textarea">Purpose description</label>
+                <textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+             </div>
+               <!-- The div is for the submit button -->
+             <div>
+                <input type="submit" value="Send Message">
+             </div>
+          </fieldset>
+       </form>
+       <!-- The section is for the external ajax -->
+       <section class="externalajax">
+         <div class="externalajax1">
+            <!-- The h1 is for the title of the section -->
+           <h1>Freelancers</h1>
+         </div>
+             <!-- The div is for the freelancers got from the api ajax -->
+         <div id="freelancers">
+ 
+         </div>
+       </section>
+<!-- The bottom (footer) part for each page divided side by side into three parts -->
+  <footer class="footer">
+    <div class="rowF">
+      <div class="columnF">
+        <h4 class="CentreText"> Turkey </h4>
+        <p>+90 555 654 67 78</p>
+        <h4 class="CentreText"> Iraq </h4>
+        <p>+964 773 453 0712</p>
+        <h4 class="CentreText"> Saudi Arabia </h4>
+        <p>+966 555 54 67 78</p>
+      </div>
+      <div class="columnF">
+        <h4 class="CentreText"> Turkey </h4>
+        <p> Ankara Mamak 20. cd. 18/3 </p>
+        <h4 class="CentreText"> Iraq </h4>
+        <p> Baghdad Almansor street 101/5 </p>
+        <h4 class="CentreText"> Saudi Arabia </h4>
+        <p> Jidda Aliskan 15/8 </p>
+      </div>
+      <div class="columnF">
+        <ul>
+        <li><a class="White" href="Index.html">Home</a></li>
+        <li><a class="White" href="Coffee.html">Coffee</a></li>
+        <li><a class="White" href="Dessert.html">Dessert</a></li>
+        <li><a class="White" href="About.html">About</a></li>
+        <li><a class="White" href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
