@@ -1,0 +1,25 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 2rem;
+  text-align: justify;
+}
+
+.highlighted-text {
+  background-color: yellow;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #c95b11;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
